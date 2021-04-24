@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tj-spring-cloud-config
+    name: itoken-config
   cloud:
     config:
       label: master #仓库
@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/SIR-TJ/itoken.git
           search-paths: itoken-config/respo
-          username:
-          password:
+          username: SIR-TJ
+          password: qW3297863
 
 server:
   port: 8888 #默认8888
